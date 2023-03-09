@@ -20,18 +20,28 @@
         </header>
 
         <section class="section">
-            <div class="content">
+            <div class="content contact-us-section">
                 <h1>Contact Us</h1>
-                <form>
-                    <label for="name" placeholder="Enter your full name">Full name *</label>
-                    <input id="name" type="text" />
-                    <label for="email" placeholder="Enter your email address">Email</label>
-                    <input id="email" type="email" />
-                    <label for="phone" placeholder="Enter your phone number">Phone</label>
-                    <input id="phone" type="tel" />
-                    <label for="message" placeholder="Write your message here ....">Message</label>
-                    <textarea id="message"></textarea>
-                    <button type="submit">Save</button>
+                <form class="contact-us-form">
+                    <div>
+                        <label for="name" placeholder="Enter your full name">Full name *</label>
+                        <input id="name" type="text" />
+                    </div>
+                    <div class="email-phone-section">
+                        <div>                        
+                            <label for="email" placeholder="Enter your email address">Email</label>
+                            <input id="email" type="email" />
+                        </div>
+                        <div>
+                            <label for="phone" placeholder="Enter your phone number">Phone</label>
+                            <input id="phone" type="tel" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="message" placeholder="Write your message here ....">Message</label>
+                        <textarea id="message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Save</button>
                 </form>
             </div>
         </section>
