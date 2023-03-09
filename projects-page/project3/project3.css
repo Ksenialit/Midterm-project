@@ -80,6 +80,11 @@ h4 {
     border: none;
 }
 
+.contact-us-button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .project-content {
     margin-top: 100px;
     margin-bottom: 70px;
