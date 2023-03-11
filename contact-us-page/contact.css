@@ -66,6 +66,79 @@ h1 {
     border: none;
 }
 
+.contact-us-button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact-us-section {
+    margin: 140px 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-form label {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #6B708D;
+}
+
+.contact-us-form div input::placeholder {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #6B708D;
+}
+
+#name {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(107, 112, 141, 0.1);
+    border: none;
+}
+
+#email {
+    height: 70px;
+    background-color: rgba(107, 112, 141, 0.1);
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#phone {
+    height: 70px;
+    background-color: rgba(107, 112, 141, 0.1);
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-phone-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#message {
+    height: 200px;
+    background-color: rgba(107, 112, 141, 0.1);
+    border: none;
+    width: 100%;
+}
+
+.submit-button {
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 580px;
+    background: #072AC8;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
