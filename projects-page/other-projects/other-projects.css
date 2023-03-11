@@ -15,7 +15,8 @@ body {
 h1 {
     font-size: 60px;
     color: #292E47;
-    font-weight: bold;
+    font-weight: 700;
+    line-height: 70px;
 }
 
 h3 {
@@ -55,7 +56,6 @@ h4 {
     display: flex;
     font-size: 17px;
     list-style-type: none;
-
 }
 
 .nav-bar ul li {
@@ -80,71 +80,46 @@ h4 {
     border: none;
 }
 
-.work-button {
-    width: 100px;
-    height: 22px;
-    color: #6B708D;
-    font-size: 17px;
-    line-height: 22px;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
-}
-
-.hero {
+.project-content {
     margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.project-intro {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
-.hero-explanation {
-    width: 50%;
-    padding: 110px 20px;
+.project-intro p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #6B708D;
 }
 
-.hero-explanation p {
-    margin: 30px 0 40px 0;
-    font-size: 20px;
+.project-explanation img {
+    max-width: 1100px;
+    max-height: 444px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+.project-explanation p {
     font-weight: 400;
-    line-height: 30px;
-}
-
-.hero-card {
-    width: 50%;
-    background-image: url("./img/hero-section/hero-image.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.hero-card img {
-    width: 190px;
-    box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
-    border-radius: 30px;
-}
-
-.second-card {
-    align-self: flex-end;
-}
-
-.companies {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 130px;
-    margin-bottom: 200px;
-}
-
-.companies img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    font-size: 20px;
+    line-height: 150%;
+    color: #6B708D;
+    text-align: justify;
 }
 
 .projects {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 .projects-cards {
@@ -182,145 +157,6 @@ h4 {
 .cards-link {
     text-decoration: none;
     color: #072AC8;
-}
-
-.clients {
-    background-image: url(./img/testimonial-section/orbit.png);
-    background-color: #292E47;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    max-width: 1320px;
-    height: 622px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.clients-review {
-    margin: 120px 110px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.clients-review h3 {
-    color: #F4F6FC;
-}
-
-.review-paragraph {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 160%;
-    text-align: center;
-    color: #FFC600;
-    margin-top: 105px;
-    margin-bottom: 105px;
-    width: 575px;
-}
-
-.client-testimonial {
-    display: flex;
-    justify-content: center;
-    
-}
-
-.client-testimonial div {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 5px;
-    
-}
-
-.client-testimonial img {
-    width: 50px;
-    height: 50px;
-    margin-right: 5px;
-    border-radius: 50%;
-}
-
-.client-name {
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 100%;
-    color: #A2D6F9;
-    margin-bottom: 5px;
-
-}
-.client-platform {
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    color: #F4F6FC;
-}
-
-.clients-image {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.client-icon {
-    width: 150px;
-    height: 150px;
-}
-
-.client-one {
-    margin: 51px 0px 0px 76px;
-}
-
-.client-two {
-    margin: 51px 91px 0px 0px;
-}
-
-.client-three {
-    margin: 0px 0px 73px 63px;
-}
-
-.client-four {
-    margin: 0px 72px 73px 0px;
-}
-
-
-.services {
-    display: flex;
-    justify-content: space-between; 
-    margin-bottom: 64px;
-}
-
-.services-cards{
-    background-color: #FFFFFF;
-    height: 380px;
-    width: 340px;
-    margin-top: 70px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.icon-background {
-    background-color: #ECF7FF;
-    border-radius: 50%;
-    padding: 20px;
-}
-
-
-.services-cards img {
-    width: 40px;
-    height: 40px;
-}
-
-.services-paragraph {
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 150%;
-    color: #6B708D;
-    margin: 20px 0 36px 0;
 }
 
 .questions-section {
@@ -423,26 +259,20 @@ h4 {
         font-size: 35px;
     }
 
-    .hero {
+    .project-content {
         margin-top: 40px;
+    }       
+
+    .project-intro {
+        margin-bottom: 40px;
     }
 
-    .hero-explanation {
-        padding: 50px 10px;
-    }
-
-    .hero-explanation p {
+    .project-intro p {
         font-size: 18px;
     }
-    
-    .hero-card img {
-        width: 120px;
-    }
 
-    .companies {
-        justify-content: space-around;
-        margin-top: 100px;
-        margin-bottom: 160px;
+    .project-explanation p {
+        font-size: 16px;
     }
 
     .projects {
@@ -464,80 +294,9 @@ h4 {
         font-size: 12px;
         margin: 10px 0 30px 0;
     }
-
-    .clients {
-        max-width: 1020px;
-        margin-top: 140px;
-        margin-bottom: 140px;
-    }
-
-    .clients-review {
-        margin: 20px 15px;
-    }
-
-    .clients-review h3 {
-        font-size: 34px;
-        text-align: center;
-    }
-    
-    .review-paragraph {
-        font-size: 18px;
-        width: 400px;
-        margin-top: 85px;
-        margin-bottom: 85px;
-    }
-    
-    .client-icon {
-        width: 100px;
-        height: 100px;
-    }
-    
-    .client-one {
-        margin: 21px 0px 0px 46px;
-    }
-    
-    .client-two {
-        margin: 21px 61px 0px 0px;
-    }
-    
-    .client-three {
-        margin: 0px 0px 43px 33px;
-    }
-    
-    .client-four {
-        margin: 0px 42px 43px 0px;
-    }
-
-    .services {
-        justify-content: space-around; 
-        margin-bottom: 50px;
-    }
-    
-    .services-cards{
-        width: 220px;
-        padding: 20px;
-        margin-top: 20px;
-    }
-    
-    .icon-background {
-        padding: 15px;
-    }
-    
-    .services-cards img {
-        width: 30px;
-        height: 30px;
-    }
-    
+  
     .cards-title {
         font-size: 22px;
-    }
-
-    .projects-paragraph {
-        font-size: 12px;
-    }
-
-    .services-paragraph {
-        font-size: 16px;
     }
 
     .footer {
@@ -586,7 +345,6 @@ h4 {
     
     h1 {
         font-size: 40px;
-        text-align: center;
     }
 
     h3 {
@@ -610,46 +368,26 @@ h4 {
         display: none;
     }
 
-    .hero {
-        margin-top: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    .project-content {
+        margin-top: 30px;
     }
 
-    .hero-explanation {
-        padding: 20px 10px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
+    .project-intro {
+        margin-bottom: 20px;
     }
 
-    .hero-explanation p {
-        font-size: 18x;
-        text-align: center;
-    }
-    
-    /* los botones no se ven bien para 700 */
-
-    .hero-card img {
-        width: 100px;
+    .project-intro p {
+        font-size: 14px;
     }
 
-    .companies {
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 80px;
-        margin-bottom: 80px;
-
+    .project-explanation img {
+        margin-bottom: 30px;
     }
 
-    .companies img {
-       padding-bottom: 60px;
-       width: 150px;
+    .project-explanation p {
+        font-size: 18px;
     }
-    
+
     .projects {
         justify-content: center;
         align-items: center;
@@ -674,73 +412,6 @@ h4 {
 
     .cards-title {
         font-size: 24px;
-    }
-
-    .clients {
-        max-width: 769px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-
-    .clients-review {
-        width: 150px;
-    }
-
-    .clients-review h3 {
-        font-size: 28px;
-    }
-
-    .review-paragraph {
-        font-size: 18px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .client-icon {
-        width: 100px;
-        height: 100px;
-    }
-    
-    .client-one {
-        margin: 11px 0px 0px 36px;
-    }
-    
-    .client-two {
-        margin: 11px 51px 0px 0px;
-    }
-    
-    .client-three {
-        margin: 0px 0px 33px 23px;
-    }
-    
-    .client-four {
-        margin: 0px 32px 33px 0px;
-    }
-
-    .client-name {
-        margin-bottom:2px;
-    }
-
-    .services {
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .services-cards{
-        width: 320px;
-        padding: 20px;
-        margin-top: 20px;
-        height: 350px;
-    }
-
-    .icon-background {
-        padding: 20px;
-    }
-    
-    .services-cards img {
-        width: 40px;
-        height: 40px;
     }
     
     .questions-section {
@@ -789,7 +460,6 @@ h4 {
     }
 }
 
-
 @media (max-width: 480px) {
     .contact-us-button {
         width: 120px;
@@ -801,9 +471,11 @@ h4 {
         margin-left: 25px;
     }
 
-    .companies img {
-        width: 120px;
-        padding-bottom: 40px;
+    .project-intro {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 40px;
     }
 
     .projects-cards {
@@ -818,51 +490,6 @@ h4 {
 
     .projects-paragraph {
         font-size: 16px;
-    }
-
-    .clients {
-        max-width: 480px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        height: 500px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .clients-review {
-        width: 250px;
-    }
-
-    .clients-review h3 {
-        font-size: 28px;
-    }
-
-    .review-paragraph {
-        font-size: 18px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    .clients-image {
-        display: none;
-    }
-
-    .review-paragraph {
-        width: 260px;
-    }
-
-    .services-cards {
-        width: 260px;
-        height: 400px;
-    }
-
-    .icon-background {
-        padding: 15px;
-    }
-    
-    .services-cards img {
-        width: 30px;
-        height: 30px;
     }
 
     .questions-section {
