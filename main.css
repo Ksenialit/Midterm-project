@@ -377,12 +377,22 @@ h4 {
     width: 198px;
     height: 80px;
     margin-left: 20px;
-    color: #FFFFFF;
+    color: #F4F6FC;
     font-size: 17px;
     line-height: 130%;
     font-weight: 500;
     border: none;
 }
+
+.thank-you-message {
+    background-color: #F4F6FC;
+    color: #292E47;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
 
 .footer {
     display: flex;
