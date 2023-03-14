@@ -6,6 +6,7 @@ open.addEventListener("click", () => {
     nav.classList.add("visible-nav");
 })
 
+// remove nav
 close.addEventListener("click", () => {
     nav.classList.remove("visible-nav");
 })
@@ -14,7 +15,7 @@ close.addEventListener("click", () => {
 const subscribeButton = document.getElementById("subscribe");
 const emailInput = document.querySelector(".delete-subscribe input[type='email']");
 
-function isValidEmail(email) {
+function validEmail(email) {
     // regex pattern for email validation
     const emailValidation = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailValidation.test(email);
@@ -23,7 +24,7 @@ function isValidEmail(email) {
 subscribeButton.addEventListener("click", function() {
   // check if the email is valid
   const email = emailInput.value;
-  if (!isValidEmail(email)) {
+  if (!validEmail(email)) {
     alert("Please enter a valid email.");
     return;
   }
