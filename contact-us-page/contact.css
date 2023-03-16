@@ -78,7 +78,8 @@ h1 {
 }
 
 .contact-us-section {
-    margin: 140px 170px;
+    margin-top: 140px;
+    margin-bottom: 140px;
     display: flex;
     flex-direction: column;
 }
@@ -102,6 +103,9 @@ h1 {
 .contact-us-form textarea {
     margin-bottom: 40px;
     padding-left: 20px;
+    font-size: 14px;
+    font-family: "Roboto";
+
 }
 
 .contact-us-form textarea {
