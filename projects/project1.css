@@ -201,7 +201,7 @@ h4 {
     line-height: 150%;
     color: #292E47;
     border: none;
-    background-image: url(./img/newsletter/icon/mail.svg);
+    background-image: url(/img/newsletter/icon/mail.svg);
     background-repeat: no-repeat;
     background-color: #F4F6FC;
     background-position: 30px;
@@ -423,6 +423,7 @@ h4 {
         color: #FFFFFF;
 
     }
+
     .project-content {
         margin-top: 30px;
     }
