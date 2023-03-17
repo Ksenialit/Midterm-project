@@ -30,7 +30,7 @@ To use this website, simply navigate to the URL in your web browser. The homepag
 
 ## Project link
 
-
+https://enchanting-sprinkles-9200bd.netlify.app/index.html
 
 ## Project API
 
