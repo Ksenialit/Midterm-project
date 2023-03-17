@@ -8,18 +8,18 @@ This project is a company website for "Circle", which was built using HTML, CSS,
 
 The website includes the following features:
 
-    (-) Responsive design for screens, desktops, tablets, and mobile devices
-    (-) Homepage with information about the company and its projects
-    (-) Project pages with dynamic content using JavaScript
-    (-) Contact us page with a form to collect data with data validation and alert.
+    - Responsive design for screens, desktops, tablets, and mobile devices
+    - Homepage with information about the company and its projects
+    - Project pages with dynamic content using JavaScript
+    - Contact us page with a form to collect data with data validation and alert.
 
 ## Technologies
 
 The website was built using the following technologies:
 
-    (-) HTML
-    (-) CSS
-    (-) JavaScript
+    - HTML
+    - CSS
+    - JavaScript
 
 ## Usage
 
