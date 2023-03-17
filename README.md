@@ -1,6 +1,9 @@
 # Circle Midterm Project
 
-This project is a company website for "Circle", which was built using HTML, CSS, and JavaScript. The website is fully responsive and optimized for screens of various sizes including desktop, tablet, and mobile. The home page provides an overview of the company and its projects. Each project has its own dynamic page that was developed with JavaScript. The website also features a contact us page, which contains a form for collecting data. The project provides an engaging and informative web presence for Circle and its projects.
+
+This project is a company website for "Circle", which was built using HTML, CSS, and JavaScript. The website is fully responsive and optimized for screens of various sizes including desktop, tablet, and mobile. The home page provides an overview of the company and its projects. 
+
+Each project has its own dynamic page that was developed with JavaScript. The website also features a contact us page, which contains a form for collecting data. The project provides an engaging and informative web presence for Circle and its projects.
 
 ![Circle home page](/img/circle-home-page.png)
 
